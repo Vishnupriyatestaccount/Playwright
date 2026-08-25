@@ -29,8 +29,8 @@ pnpm-debug.log*
 .DS_Store
 
 # Playwright test artifacts
-/playwright-report/
-/test-results/
+playwright-report/
+test-results/
 
 # Environment files
 .env
