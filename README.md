@@ -1,44 +1,50 @@
 # Playwright Practice Repository
 
-This repository is a learning workspace for JavaScript, TypeScript, and Playwright automation. It contains practice exercises, tutorial files, and examples grouped by chapter.
+This repository is a learning workspace for JavaScript, TypeScript, and Playwright automation. It contains chapter-wise practice files, examples, and mini exercises for hands-on learning.
 
 ## Repository overview
 
-- `Chapter_01_Basics/` - basic JavaScript and setup examples
+- `Chapter_01_Basics/` - basics of JavaScript and setup examples
 - `Chapter_02_JavaScript_Basics/` - JavaScript fundamentals
-- `Chapter_03_Identifiers_Literals/` - identifiers, literals, and editor shortcuts
-- `Chapter_04_Javascript_Concepts/` - var/let/const, hoisting, scope, and functions
-- `Chapter_05_Literals/` - literal examples and template strings
+- `Chapter_03_Identifiers_Literals/` - identifiers, literals, comments, and shortcut notes
+- `Chapter_04_Javascript_Concepts/` - var/let/const, scope, hoisting, and functions
+- `Chapter_05_Literals/` - literals and template strings
 - `chapter_06_Operator/` - arithmetic, comparison, logical, and ternary operators
-- `chapter_07_If_else/` - conditionals and decision logic
+- `chapter_07_If_else/` - if/else and decision logic
 - `chapter_08_Switch_Statement/` - switch-case examples
-- `chapter_09_UserInput/` - user input and console input examples
-- `chapter_10_Loops/` - loops and iteration examples
-- `chapter_11_Arrays/` - array operations and array logic
-- `chapter_12_Funtions/` - functions, arrows, closures, and IIFE examples
+- `chapter_09_UserInput/` - console input and user input examples
+- `chapter_10_Loops/` - loops and iterations
+- `chapter_11_Arrays/` - array operations and practice exercises
+- `chapter_12_Funtions/` - function types, arrow functions, closures, and IIFE
 - `chapter_13_Strings/` - string methods and transformations
-- `chapter_14_Objects/` - object manipulation and destructuring
-- `chapter_15_2D_Array/` - two-dimensional arrays and array patterns
-- `Chapter_16_Callback/` - callback examples
-- `Chapter_17_Promises/` - promise-based async examples
-- `Chapter_18_async_await/` - async/await patterns
-- `Chapter_19_Playwright/` - Playwright automation practice
+- `chapter_14_Objects/` - object creation, destructuring, and object patterns
+- `chapter_15_2D_Array/` - 2D arrays and matrix-style exercises
+- `Chapter_16_Callback/` - callback patterns and examples
+- `Chapter_17_Promises/` - promise examples and async flow practice
+- `Chapter_18_async_await/` - async/await examples
+- `Chapter_19_Playwright/` - Playwright automation practice and reports
 - `Chapter_20_OOPS Basics/` - object-oriented programming basics
-- `Chapter_26_Typescript/` - TypeScript basics and examples
-- `Chapter_27_Interfaces/` - TypeScript interfaces and readonly properties
+- `Chapter_26_Typescript/` - TypeScript fundamentals and examples
+- `Chapter_27_Interfaces/` - interface examples, optional properties, readonly fields, and interface contracts
 
 ## TypeScript setup
 
-To run the TypeScript examples locally, install the required dev dependencies:
+To run the TypeScript examples locally, install the project dependencies:
 
 ```bash
 npm install --save-dev ts-node typescript @types/node
 ```
 
-Then run a file like this:
+Then execute a lesson file such as:
 
 ```bash
 npx ts-node Chapter_26_Typescript/198_ts4.ts
+```
+
+Or compile the interface examples:
+
+```bash
+npx tsc --noEmit Chapter_27_Interfaces/201_Interface.ts Chapter_27_Interfaces/202_interface.ts Chapter_27_Interfaces/203_InterfaceRO.ts Chapter_27_Interfaces/204_Interfaceex.ts Chapter_27_Interfaces/205_interface.ts
 ```
 
 ## Playwright usage
@@ -49,6 +55,6 @@ npx playwright test
 
 ## Notes
 
-- This repository is primarily for learning and practicing JavaScript/TypeScript concepts.
-- The folder names reflect chapter-based exercises and are updated over time as learning progresses.
+- This repository is mainly for learning and practicing JavaScript, TypeScript, and Playwright.
+- Generated Playwright reports and test-results are ignored by the Git rules to keep the repository focused on source files and exercises.
 - Node.js and npm are required to run the TypeScript and Playwright examples.
