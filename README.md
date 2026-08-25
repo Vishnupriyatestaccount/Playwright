@@ -24,6 +24,11 @@ This repository is a learning workspace for JavaScript, TypeScript, and Playwrig
 - `Chapter_18_async_await/` - async/await examples
 - `Chapter_19_Playwright/` - Playwright automation practice and reports
 - `Chapter_20_OOPS Basics/` - object-oriented programming basics
+- `Chapter_21_TypeScriptBasic/` - TypeScript basics and module examples
+- `Chapter_22_Class_Objects/` - classes and object modeling
+- `Chapter_23_Encapsulation/` - encapsulation and access control examples
+- `Chapter_24_Inheritence/` - inheritance examples and patterns
+- `Chapter_25_Polymorphism/` - method overriding and polymorphism
 - `Chapter_26_Typescript/` - TypeScript fundamentals and examples
 - `Chapter_27_Interfaces/` - interface examples, optional properties, readonly fields, and interface contracts
 
