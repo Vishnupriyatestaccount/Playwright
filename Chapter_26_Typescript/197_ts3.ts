@@ -1,6 +1,6 @@
 let unknown: unknown ="hello";
 
-if( type of unknown == "String"){
+if( typeof unknown == "String"){
     console.log("Hi");
 }
 

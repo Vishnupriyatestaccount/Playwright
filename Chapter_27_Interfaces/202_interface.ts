@@ -1,15 +1,15 @@
-interface APIResponse{
-    body:string;
-    headers?:object;
-    responseToime?:number;
+interface APIResponseBasic {
+    body: string;
+    headers?: object;
+    responseTime?: number;
 }
 
-let response1: APIResponse={
-    body:"HI",
-}
+let response1: APIResponseBasic = {
+    body: "HI",
+};
 
-let response2: APIResponse={
-    body:"Hi",
-    headers:{},
-    responseTime: 400
+let response2: APIResponseBasic = {
+    body: "Hi",
+    headers: {},
+    responseTime: 400,
 };
