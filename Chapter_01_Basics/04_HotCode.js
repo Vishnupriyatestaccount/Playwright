@@ -1,10 +1,20 @@
-console.log("Hello");
+// console.log("Hello");
 
-function add(a, b) {
-    return a + b;
+// function add(a, b) {
+//     return a + b;
+// }
+// let result;
+// for (let i = 0; i < 10000; i++) {
+//     result = add(i, i + 1);
+// }
+// console.log("After 10000 calls:", result);
+
+
+function disp()
+{
+    for (let i = 0; i < 5; i++) {
+        console.log(i);
+    }
 }
-let result;
-for (let i = 0; i < 10000; i++) {
-    result = add(i, i + 1);
-}
-console.log("After 10000 calls:", result);
+
+disp();

@@ -1,17 +1,27 @@
-let a=10;
-console.log(a);
+// let a=10;
+// console.log(a);
 
-let a = 10;
-console.log(a);
+// let a = 10;
+// console.log(a);
 
 
-for (let a = 0; a < 100000; a++) {
-    console.log(a);
-    print();
+// for (let a = 0; a < 100000; a++) {
+//     console.log(a);
+//     print();
+// }
+
+// function print() {
+//     console.log("Hello");
+// }
+
+
+function sum(a,b)
+{
+    let c=a+b;
+    return c;
 }
 
-function print() {
-    console.log("Hello");
-}
+d=sum(1,2);
+console.log(d);
 
 

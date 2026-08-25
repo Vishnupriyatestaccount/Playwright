@@ -2,6 +2,11 @@ let rajkumar_age = 18;
 let rj_will_goa = rajkumar_age >= 18 ? "RJ will go goa" : "No Goa";
 console.log(rj_will_goa)
 
+
+let m=10;
+let n=m? "m is truthy" : "n is falsy";
+console.log(n)
+
 let a = 10;
 a += 10;
 // a =-10; this doen't 

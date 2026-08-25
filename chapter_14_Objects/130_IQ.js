@@ -4,13 +4,13 @@ const user = {
     email: "john@example.com"
 };
 
-console.log(user);
-console.log(user.name);
+// console.log(user);
+// console.log(user.name);
 console.log(user["age"]);
 
 
-// Dynamic property access
-const key = "age";
+// // Dynamic property access
+ const key = "age";
 console.log(user[key]);
 
 // Adding/modifying properties
