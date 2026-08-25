@@ -57,4 +57,6 @@ npx playwright test
 
 - This repository is mainly for learning and practicing JavaScript, TypeScript, and Playwright.
 - Generated Playwright reports and test-results are ignored by the Git rules to keep the repository focused on source files and exercises.
+- TypeScript interface lessons include examples for simple object contracts, optional properties, readonly values, and calculator-style implementations.
+- The project structure is organized by chapter, and the root README is kept current as new exercises are added and older files are cleaned up.
 - Node.js and npm are required to run the TypeScript and Playwright examples.
